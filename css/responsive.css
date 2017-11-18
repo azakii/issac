@@ -1,0 +1,1072 @@
+/*
+	Isaacology Responsive Theme
+	Author: azaki
+	Version 0.0.1
+*/
+/* Large Devices */
+@media only screen and (min-width: 1210px) {
+  /* line 9, ../scss/responsive.scss */
+  .container {
+    width: 980px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /* line 14, ../scss/responsive.scss */
+  .jp-volume-controls button {
+    width: 20px;
+  }
+}
+/* 1024 Devices */
+@media only screen and (max-width: 1024px) {
+  /* line 20, ../scss/responsive.scss */
+  header .navbar-default .nav.navbar-nav {
+    margin-left: 21%;
+    width: 73%;
+  }
+
+  /* line 21, ../scss/responsive.scss */
+  header .site-branding h1.site-title {
+    padding: .4em 3.75em;
+  }
+
+  /* line 22, ../scss/responsive.scss */
+  header .site-branding p {
+    padding: .5em 0 0 56%;
+  }
+
+  /* line 23, ../scss/responsive.scss */
+  .content .slider-container .carousel-inner .item {
+    background-position: center center;
+  }
+
+  /* line 24, ../scss/responsive.scss */
+  .slider-container .fa-angle-left {
+    right: 30%;
+    left: inherit;
+  }
+
+  /* line 25, ../scss/responsive.scss */
+  .latest-ico:after {
+    background-size: 180px;
+  }
+
+  /* line 26, ../scss/responsive.scss */
+  .home-accordion .title {
+    width: 37.5px;
+  }
+
+  /* line 27, ../scss/responsive.scss */
+  .caret {
+    border: 0;
+    margin: 0px .6em;
+    float: right;
+  }
+
+  /* line 28, ../scss/responsive.scss */
+  .caret::after {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f0d7";
+  }
+
+  /* line 37, ../scss/responsive.scss */
+  .filterationContainer .nav.navbar-nav li ul {
+    position: absolute;
+    top: 41px;
+    right: 0;
+  }
+
+  /* line 42, ../scss/responsive.scss */
+  footer .footerlogo {
+    background: url(../img/myicon/flogo.png) no-repeat;
+    width: 140px;
+    height: 75px;
+    background-size: 100%;
+  }
+
+  /* line 43, ../scss/responsive.scss */
+  header .site-branding h1.site-title a {
+    background: url(../img/res-logo.png) no-repeat;
+    width: 120px;
+    height: 64px;
+    background-size: 100% 100%;
+  }
+
+  /* line 44, ../scss/responsive.scss */
+  header .navbar-default .nav.navbar-nav li ul {
+    margin-top: -1px;
+  }
+
+  /* line 45, ../scss/responsive.scss */
+  .jp-video .jp-type-playlist .jp-controls {
+    width: 150px;
+  }
+
+  /* line 46, ../scss/responsive.scss */
+  .jp-video .jp-toggles {
+    width: 75px;
+  }
+
+  /* line 47, ../scss/responsive.scss */
+  .red-top-title h1::after {
+    display: none;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /* line 55, ../scss/responsive.scss */
+  .shareIcons {
+    overflow: hidden;
+  }
+
+  /* line 56, ../scss/responsive.scss */
+  .red-top-title {
+    padding: 3em 0 3em;
+  }
+
+  /* line 57, ../scss/responsive.scss */
+  header .site-branding h1.site-title a {
+    background: url(../img/res-logo.png) no-repeat;
+    width: 135px;
+    height: 70px;
+    background-size: 100% 100%;
+  }
+
+  /* line 58, ../scss/responsive.scss */
+  navbar-brand, header .navbar-default::after, header::before, p.site-description, .topBarLinks, header .site-branding p {
+    display: none;
+  }
+
+  /* line 59, ../scss/responsive.scss */
+  header .site-branding h1.site-title::before {
+    display: none;
+  }
+
+  /* line 60, ../scss/responsive.scss */
+  header .site-branding h1.site-title::after {
+    display: none;
+  }
+
+  /* line 61, ../scss/responsive.scss */
+  header .site-branding h1.site-title {
+    position: relative;
+  }
+
+  /* line 62, ../scss/responsive.scss */
+  header .site-branding h1.site-title a {
+    background-position: center;
+  }
+
+  /* line 63, ../scss/responsive.scss */
+  header .site-branding h1.site-title {
+    width: 100%;
+  }
+
+  /* line 65, ../scss/responsive.scss */
+  header .site-branding .col-md-6 {
+    padding: 0;
+  }
+
+  /* line 66, ../scss/responsive.scss */
+  .navbar-header {
+    text-align: center;
+    padding-top: 1em;
+  }
+
+  /* line 67, ../scss/responsive.scss */
+  .navbar-toggle {
+    float: right;
+    margin-top: 0em;
+  }
+
+  /* line 68, ../scss/responsive.scss */
+  .home-accordion {
+    display: none;
+  }
+
+  /* line 69, ../scss/responsive.scss */
+  .navbar-brand {
+    display: none;
+  }
+
+  /* line 70, ../scss/responsive.scss */
+  header .site-branding {
+    background-color: #FFF;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    text-align: center;
+    width: 100%;
+  }
+  /* line 71, ../scss/responsive.scss */
+  header .site-branding .container {
+    padding: 0;
+  }
+
+  /* line 73, ../scss/responsive.scss */
+  .navbar-default .navbar-toggle {
+    background-color: #FFF;
+  }
+
+  /* line 74, ../scss/responsive.scss */
+  .navbar-default .navbar-toggle {
+    float: left;
+    margin-left: 15px;
+  }
+
+  /* line 76, ../scss/responsive.scss */
+  header .navbar-default .nav.navbar-nav, header .navbar-default .nav.navbar-nav li {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  /* line 77, ../scss/responsive.scss */
+  header .navbar-default .nav.navbar-nav li {
+    background-image: none;
+    clear: both;
+  }
+
+  /* line 78, ../scss/responsive.scss */
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #8f141a;
+  }
+  /* line 79, ../scss/responsive.scss */
+  .navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #FFF;
+  }
+
+  /* line 81, ../scss/responsive.scss */
+  header .navbar-nav {
+    margin: 0;
+  }
+
+  /* line 82, ../scss/responsive.scss */
+  .site-header:before {
+    content: '';
+    display: inline-block;
+    background-color: #F2AB00;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 32px;
+    z-index: -1;
+  }
+
+  /* line 87, ../scss/responsive.scss */
+  .slider-container .carousel-inner {
+    height: 350px;
+  }
+
+  /* line 89, ../scss/responsive.scss */
+  .carousel-inner .item {
+    height: 100%;
+    width: auto;
+  }
+
+  /* line 93, ../scss/responsive.scss */
+  .tabs-block .well li {
+    margin: 0 0px;
+  }
+
+  /* line 94, ../scss/responsive.scss */
+  .slider-container .carousel-caption {
+    right: 20%;
+    left: 20%;
+  }
+
+  /* line 95, ../scss/responsive.scss */
+  .slider-container .carousel-inner .item {
+    background-position: center;
+  }
+
+  /* line 96, ../scss/responsive.scss */
+  .slider-container .carousel-inner .item img {
+    height: 100%;
+    width: auto;
+  }
+
+  /* line 97, ../scss/responsive.scss */
+  .three-article {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    margin-top: 2em;
+  }
+
+  /* line 103, ../scss/responsive.scss */
+  .home-articles img {
+    width: 100%;
+    margin-bottom: 1em;
+    height: auto!important;
+  }
+
+  /* line 104, ../scss/responsive.scss */
+  .home-articles .three-article img {
+    width: 100%;
+    margin-bottom: 1em;
+    height: 250px;
+  }
+
+  /* line 105, ../scss/responsive.scss */
+  .media {
+    width: 100%;
+  }
+
+  /* line 106, ../scss/responsive.scss */
+  .three-article .col-md-4, .three-article .col-md-8 {
+    /*padding: 0;*/
+  }
+
+  /* line 107, ../scss/responsive.scss */
+  .home-articles .col-md-6:first-child {
+    margin-bottom: 2em;
+    clear: both;
+  }
+
+  /* line 108, ../scss/responsive.scss */
+  .events .col-md-4 {
+    margin-bottom: 1em;
+    display: inline-block;
+  }
+
+  /* line 112, ../scss/responsive.scss */
+  .content .content-blocks .col-md-3 {
+    padding-top: .5em;
+    width: 50%;
+    float: left;
+  }
+
+  /* line 113, ../scss/responsive.scss */
+  .content-blocks.books .media .col-md-3 {
+    padding-top: .5em;
+    width: 100%;
+    float: left;
+  }
+
+  /* line 115, ../scss/responsive.scss */
+  .videos-section img {
+    height: auto;
+  }
+
+  /* line 117, ../scss/responsive.scss */
+  .footAbout {
+    margin: 2em 0;
+  }
+
+  /* line 118, ../scss/responsive.scss */
+  .pagnation ul li a {
+    padding: 5px 8px;
+  }
+
+  /* line 119, ../scss/responsive.scss */
+  .formSelection .graybg .emptyContent {
+    background-size: 90%;
+  }
+
+  /* line 120, ../scss/responsive.scss */
+  .red-top-title h1 {
+    font-size: 2em;
+  }
+
+  /* line 122, ../scss/responsive.scss */
+  .related-map .col-md-4 {
+    margin-top: 1em;
+    display: inline-block;
+    padding: 0;
+  }
+
+  /* line 127, ../scss/responsive.scss */
+  .media-left, .media > .pull-left {
+    padding-left: 10px;
+    margin-bottom: 1em;
+  }
+
+  /* line 128, ../scss/responsive.scss */
+  .prayer-wall ul.media-list li {
+    padding: 1em 0;
+  }
+
+  /* line 129, ../scss/responsive.scss */
+  .prayer-wall.graybg {
+    padding: 1em;
+  }
+
+  /* line 130, ../scss/responsive.scss */
+  .prayer-wall ul.media-list li .well-lg .media-date {
+    margin-top: -1.5em;
+  }
+
+  /* line 131, ../scss/responsive.scss */
+  .prayer-wall .media-body {
+    width: 100%;
+    display: inline-block;
+  }
+
+  /* line 132, ../scss/responsive.scss */
+  .prayer-wall .media-replied .media-body {
+    width: auto;
+    display: table-cell;
+  }
+
+  /* line 133, ../scss/responsive.scss */
+  .content .section-describtion {
+    padding: 1em 1em;
+  }
+
+  /* line 134, ../scss/responsive.scss */
+  .filterationContainer .nav.navbar-nav {
+    margin: 0;
+  }
+
+  /* line 135, ../scss/responsive.scss */
+  .filterationContainer .nav.navbar-nav li {
+    background-image: none;
+    margin-bottom: .03em;
+  }
+
+  /*arrange buttons in e-books*/
+  /* line 137, ../scss/responsive.scss */
+  .content .content-blocks .col-md-3 img {
+    width: 100%;
+    margin-bottom: 1.5em;
+  }
+
+  /* line 138, ../scss/responsive.scss */
+  .content-blocks.books .pdf a span {
+    width: 50%;
+  }
+
+  /* line 139, ../scss/responsive.scss */
+  .content-blocks.books .pdf a::before {
+    display: none;
+  }
+
+  /* line 140, ../scss/responsive.scss */
+  header .navbar-default {
+    background: #F2AB00;
+    margin-top: 1em;
+  }
+
+  /* line 141, ../scss/responsive.scss */
+  header .navbar-default .nav.navbar-nav a {
+    color: white;
+  }
+
+  /* line 142, ../scss/responsive.scss */
+  .home-articles .short-describtion {
+    font-size: 1.2em;
+    height: 72px;
+    overflow: hidden;
+  }
+
+  /* line 143, ../scss/responsive.scss */
+  .tabs-block .pull-left.notes {
+    font-size: 1em;
+    width: 100%;
+  }
+
+  /* line 144, ../scss/responsive.scss */
+  .tabs-block .pull-right.error {
+    font-size: .9em;
+    width: 100%;
+    text-align: left;
+  }
+
+  /* line 145, ../scss/responsive.scss */
+  .icons-interactive .nav-tabs > li {
+    width: 33%;
+  }
+
+  /* line 147, ../scss/responsive.scss */
+  .related-article .col-md-10 .col-md-4 {
+    width: 50%;
+    margin-top: 1em;
+    float: left;
+  }
+  /* line 149, ../scss/responsive.scss */
+  .related-article .col-md-10 .col-md-4 img {
+    width: 100%;
+    height: auto;
+  }
+  /* line 151, ../scss/responsive.scss */
+  .related-article .col-md-2 {
+    display: none;
+  }
+
+  /* line 153, ../scss/responsive.scss */
+  .jp-video-270p {
+    border-left: 0;
+  }
+
+  /* line 155, ../scss/responsive.scss */
+  .filterationContainer .nav.navbar-right li {
+    display: inline-block;
+  }
+
+  /* line 157, ../scss/responsive.scss */
+  .home-articles span {
+    font-size: 1.2em;
+  }
+
+  /* line 158, ../scss/responsive.scss */
+  .songs .events .caption h2 {
+    margin-bottom: .3em;
+  }
+
+  /* line 159, ../scss/responsive.scss */
+  .list-groups .lightborder .caption {
+    padding-bottom: .3em;
+  }
+
+  /* line 160, ../scss/responsive.scss */
+  .team .team-describe {
+    margin-bottom: 1em;
+  }
+
+  /* line 162, ../scss/responsive.scss */
+  .content-blocks .media {
+    width: 50%;
+    float: left;
+    margin-top: 0 !important;
+    margin-bottom: 20px;
+  }
+
+  /* line 163, ../scss/responsive.scss */
+  .filterationContainer .nav.navbar-nav li ul li {
+    width: 100%;
+  }
+
+  /* line 165, ../scss/responsive.scss */
+  .filter .selectWrap {
+    width: 70%!important;
+    padding: 1em 0;
+  }
+
+  /* line 166, ../scss/responsive.scss */
+  .filter .selectWrap::before {
+    top: 21px;
+  }
+
+  /* line 167, ../scss/responsive.scss */
+  .songs .playlist {
+    padding: 1em 0 1em 0;
+    width: 100%;
+  }
+
+  /* line 168, ../scss/responsive.scss */
+  .filterationContainer ul {
+    float: left;
+    width: 100%;
+  }
+
+  /* line 169, ../scss/responsive.scss */
+  .filterationContainer ul li {
+    float: left;
+  }
+
+  /* line 170, ../scss/responsive.scss */
+  .filterationContainer ul li ul li {
+    float: none;
+  }
+
+  /* line 171, ../scss/responsive.scss */
+  .songs .events .lightborder, .videos-list .home-articles.events .col-md-4 {
+    width: 50%;
+    float: left;
+  }
+
+  /* line 172, ../scss/responsive.scss */
+  .useful-container .col-md-9 h2 {
+    margin-top: 0;
+  }
+
+  /* line 173, ../scss/responsive.scss */
+  .photos .portfolio-item {
+    width: 50%;
+    float: left;
+  }
+
+  /* line 174, ../scss/responsive.scss */
+  .topBarLinks {
+    display: block;
+    position: absolute;
+    top: -13.2em;
+    z-index: 999;
+    background: #F2AB00;
+    left: 0;
+    width: 100%;
+  }
+
+  /* line 175, ../scss/responsive.scss */
+  header .navbar-default {
+    margin-top: -47px;
+    z-index: 99;
+  }
+
+  /* line 176, ../scss/responsive.scss */
+  header .site-branding .container {
+    padding: 0;
+    width: 100%;
+  }
+
+  /* line 178, ../scss/responsive.scss */
+  header .site-branding h1.site-title {
+    padding: 2.4em 1em;
+    height: 145px;
+    display: inline-block;
+    margin-top: 0em;
+    margin-bottom: 2em;
+  }
+
+  /* line 179, ../scss/responsive.scss */
+  .filterationContainer ul.nav.navbar-nav {
+    float: left;
+    width: auto;
+  }
+
+  /* line 180, ../scss/responsive.scss */
+  .filterationContainer ul.nav.navbar-nav.navbar-right {
+    float: right;
+    width: auto;
+  }
+
+  /* line 181, ../scss/responsive.scss */
+  .songs .events .col-md-3, .related-map .col-md-4 {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+    height: auto;
+  }
+  /* line 182, ../scss/responsive.scss */
+  .songs .events .col-md-3 img, .related-map .col-md-4 img {
+    border: 0;
+    max-width: 100%;
+    width: 100%;
+    height: auto !important;
+  }
+
+  /* line 188, ../scss/responsive.scss */
+  .related-map {
+    display: inline-block;
+  }
+
+  /* line 189, ../scss/responsive.scss */
+  .fancybox-nav span {
+    visibility: visible;
+  }
+
+  /* line 190, ../scss/responsive.scss */
+  .formSelection .selectWrap.map {
+    width: 80%;
+  }
+
+  /* line 191, ../scss/responsive.scss */
+  header .navbar-default .nav.navbar-nav li ul {
+    margin-top: -2px;
+  }
+
+  /* line 192, ../scss/responsive.scss */
+  .tabs-block .tab-content {
+    margin-bottom: 1.1em;
+    margin-top: .5em;
+  }
+
+  /* line 193, ../scss/responsive.scss */
+  .tabs-block .col-md-5 {
+    float: left;
+  }
+
+  /* line 194, ../scss/responsive.scss */
+  .tabs-block .col-md-7 {
+    clear: both;
+  }
+
+  /* line 195, ../scss/responsive.scss */
+  .home-articles .three-article img {
+    height: 160px;
+  }
+
+  /* line 196, ../scss/responsive.scss */
+  .videos-section .col-sm-7, .videos-section .col-sm-5 {
+    float: left;
+  }
+
+  /* line 197, ../scss/responsive.scss */
+  .three-article .media .col-sm-4, .three-article .media .col-sm-8, .home-articles .col-md-6 .col-md-12.col-sm-4, .home-articles .col-md-6 .col-md-12.col-sm-8 {
+    float: left;
+  }
+
+  /* line 198, ../scss/responsive.scss */
+  .caret {
+    float: right;
+  }
+
+  /* line 199, ../scss/responsive.scss */
+  .form.dictionary form {
+    width: 100%;
+  }
+
+  /* line 200, ../scss/responsive.scss */
+  .tabs-block .well li a::after {
+    display: none !important;
+  }
+
+  /* line 201, ../scss/responsive.scss */
+  .list-groups .lightborder a.imageLink i {
+    top: 35%;
+    left: 40%;
+  }
+
+  /* line 205, ../scss/responsive.scss */
+  .filterationContainer ul.navbar-right {
+    display: none;
+  }
+
+  /* line 206, ../scss/responsive.scss */
+  .videos-section .col-sm-7, .videos-section .col-sm-5 {
+    width: 100%;
+  }
+
+  /* line 207, ../scss/responsive.scss */
+  .videos-section .col-sm-5 .small-image {
+    width: 50%;
+    float: left;
+  }
+
+  /* line 208, ../scss/responsive.scss */
+  .videos-section .col-sm-5 .small-image:first-child {
+    border-right: 5px #FFF solid;
+  }
+
+  /* line 209, ../scss/responsive.scss */
+  .videos-section .col-sm-5 .small-image:last-child {
+    border-left: 5px #FFF solid;
+  }
+
+  /* line 210, ../scss/responsive.scss */
+  .home-articles .col-md-12.col-sm-8 h2 {
+    margin-top: 0;
+  }
+
+  /* line 211, ../scss/responsive.scss */
+  .home-articles.events.list-groups .col-md-3 {
+    width: 100%;
+  }
+
+  /* line 212, ../scss/responsive.scss */
+  .list-groups .lightborder .caption {
+    padding-bottom: .8em;
+  }
+
+  /* line 213, ../scss/responsive.scss */
+  .list-groups .lightborder .col-md-9 {
+    clear: both;
+  }
+
+  /* line 214, ../scss/responsive.scss */
+  .home-articles .col-md-12.col-sm-4 a {
+    display: inline-block;
+  }
+
+  /* line 215, ../scss/responsive.scss */
+  .home-articles .col-md-6 {
+    clear: both;
+  }
+}
+/* Portrait and Landscape */
+@media (min-device-width: 768px) and (max-device-width: 991px) {
+  /* line 221, ../scss/responsive.scss */
+  .videos-section .col-sm-7, .videos-section .col-sm-5 {
+    width: 100%;
+  }
+
+  /* line 222, ../scss/responsive.scss */
+  .videos-section .col-sm-5 .small-image {
+    width: 50%;
+    float: left;
+  }
+
+  /* line 223, ../scss/responsive.scss */
+  .videos-section .col-sm-5 .small-image:first-child {
+    border-right: 5px #FFF solid;
+  }
+
+  /* line 224, ../scss/responsive.scss */
+  .videos-section .col-sm-5 .small-image:last-child {
+    border-left: 5px #FFF solid;
+  }
+
+  /* line 225, ../scss/responsive.scss */
+  .home-articles .col-md-12.col-sm-8 h2 {
+    margin-top: 0;
+  }
+
+  /*.jspHorizontalBar::before {top:5px;}
+  .jspHorizontalBar::after {top:5px;}*/
+  /* line 228, ../scss/responsive.scss */
+  .content-blocks.books .pdf-describtion .short-describtion {
+    font-size: .8em;
+    font-weight: 500;
+    color: black;
+    text-align: justify;
+    height: 60px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  /* line 229, ../scss/responsive.scss */
+  .content-blocks.books .pdf-describtion h2 {
+    font-size: 1.500em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    height: 49px;
+    overflow: hidden;
+    clear: both;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /* line 234, ../scss/responsive.scss */
+  .formSelection .selectWrap.map {
+    width: 100%;
+  }
+
+  /* line 235, ../scss/responsive.scss */
+  .related-article h2 {
+    font-size: 1.3em;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 239, ../scss/responsive.scss */
+  header .site-branding h1.site-title {
+    padding: 2.4em 1em;
+    height: 70px;
+    display: inline-block;
+    margin-top: 0em;
+    margin-bottom: 1em;
+  }
+
+  /* line 240, ../scss/responsive.scss */
+  .topBarLinks {
+    display: block;
+    position: absolute;
+    top: -7.8em;
+    z-index: 999;
+    background: #F2AB00;
+    left: 0;
+    width: 100%;
+  }
+
+  /* line 242, ../scss/responsive.scss */
+  header .navbar-default {
+    background: transparent;
+  }
+
+  /* line 243, ../scss/responsive.scss */
+  header .navbar-default .nav.navbar-nav a {
+    color: black;
+  }
+
+  /* line 244, ../scss/responsive.scss */
+  .content .filter {
+    padding: 0em 0;
+  }
+
+  /* line 245, ../scss/responsive.scss */
+  .content .filter ul {
+    white-space: nowrap;
+    overflow: overlay;
+    padding: 1em;
+  }
+
+  /* line 249, ../scss/responsive.scss */
+  .filterationContainer .nav.navbar-nav a {
+    padding: 10px 10px;
+  }
+
+  /* line 250, ../scss/responsive.scss */
+  .videos-section .col-sm-7, .videos-section .col-sm-5 {
+    float: none;
+  }
+
+  /* line 251, ../scss/responsive.scss */
+  .three-article .media .col-sm-4, .three-article .media .col-sm-8, .home-articles .col-md-6 .col-md-12.col-sm-4, .home-articles .col-md-6 .col-md-12.col-sm-8 {
+    float: none;
+  }
+
+  /* line 252, ../scss/responsive.scss */
+  .three-article .media {
+    width: 50%;
+    float: left;
+  }
+
+  /* line 256, ../scss/responsive.scss */
+  .three-article .media:first-child {
+    margin-top: 15px;
+  }
+
+  /* line 257, ../scss/responsive.scss */
+  .jp-video .jp-volume-controls {
+    display: none;
+  }
+
+  /* line 258, ../scss/responsive.scss */
+  .faq .tab-content .tab-pane .panel h4.panel-title span {
+    font-size: 2em;
+    margin-top: -10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  /* line 259, ../scss/responsive.scss */
+  .faq .tab-content .tab-pane .panel h4.panel-title {
+    position: relative;
+    padding-right: 5px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /* line 264, ../scss/responsive.scss */
+  .prayer-wall .media-replied .media-body {
+    display: inline-block;
+    width: 100%;
+    padding: 2em;
+  }
+
+  /* line 267, ../scss/responsive.scss */
+  .prayer-wall ul.media-list li .well-lg .media-date {
+    margin-top: 0em;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  /* line 269, ../scss/responsive.scss */
+  .videos-section .col-sm-5 .small-image {
+    width: 100%;
+    float: left;
+    border: 0;
+  }
+
+  /* line 270, ../scss/responsive.scss */
+  .videos-section .col-sm-5 .small-image:last-child {
+    width: 100%;
+    float: left;
+    border: 0;
+  }
+
+  /* line 271, ../scss/responsive.scss */
+  .three-article .media {
+    width: 100%;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 414px) {
+  /* line 276, ../scss/responsive.scss */
+  .filterationContainer .nav.navbar-nav a {
+    padding: 10px 15px;
+  }
+
+  /* line 277, ../scss/responsive.scss */
+  .content-blocks .media {
+    width: 100%;
+  }
+
+  /* line 278, ../scss/responsive.scss */
+  .home-articles.events .col-md-4 {
+    width: 100%;
+  }
+
+  /* line 279, ../scss/responsive.scss */
+  .showarticle .article p img {
+    height: auto;
+  }
+
+  /* line 280, ../scss/responsive.scss */
+  .songs .events .lightborder {
+    width: 100%;
+  }
+
+  /* line 281, ../scss/responsive.scss */
+  .useful-container .col-md-3, .useful-container .col-md-9 {
+    width: 100%;
+  }
+
+  /* line 282, ../scss/responsive.scss */
+  .useful-container .col-md-9 h2 {
+    margin-top: 20px;
+  }
+
+  /* line 283, ../scss/responsive.scss */
+  .songs .events .lightborder, .videos-list .home-articles.events .col-md-4 {
+    width: 100%;
+  }
+
+  /* line 284, ../scss/responsive.scss */
+  .photos .portfolio-item {
+    width: 100%;
+  }
+
+  /* line 285, ../scss/responsive.scss */
+  .songs .events .col-md-3, .related-map .col-md-4 {
+    width: 100%;
+  }
+
+  /* line 286, ../scss/responsive.scss */
+  .content .content-blocks .col-md-3, .related-article .col-md-4 {
+    width: 100% !important;
+  }
+
+  /* line 287, ../scss/responsive.scss */
+  .three-article .media {
+    width: 100%;
+  }
+
+  /* line 288, ../scss/responsive.scss */
+  .prayer-wall ul.media-list li .pull-left {
+    width: 20%;
+  }
+
+  /* line 289, ../scss/responsive.scss */
+  .prayer-wall .media-replied .media-body {
+    padding: 0 1em;
+  }
+
+  /* line 290, ../scss/responsive.scss */
+  .tabs-block .well li a {
+    font-size: 0.7em;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /* line 295, ../scss/responsive.scss */
+  .team .col-md-3 {
+    width: 100%;
+  }
+
+  /* line 296, ../scss/responsive.scss */
+  .tabs-block .container {
+    padding: 0;
+  }
+
+  /* line 297, ../scss/responsive.scss */
+  .tabs-block .well li a {
+    font-size: 0.6em;
+  }
+
+  /* line 298, ../scss/responsive.scss */
+  .pagnation ul li a.next i, .pagnation ul li a.prev i {
+    font-size: 2em;
+  }
+
+  /* line 299, ../scss/responsive.scss */
+  .tabs-block .well li a {
+    width: auto !important;
+  }
+}

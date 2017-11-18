@@ -1,0 +1,103 @@
+/* Equal Height Columns  */
+.eqWrap {
+  display: flex;
+  .eq {
+    /* padding: 10px; */
+  }
+  .eq:nth-of-type(odd) {
+
+  }
+  .eq:nth-of-type(even) {
+
+  }
+  .equalHW {
+    flex: 1;
+  }
+  .equalHMWrap {
+    justify-content: space-between;
+  }
+  .equalHM {
+    width: 32%;
+  }
+  .equalHMRWrap {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .equalHMR {
+    width: 32%;
+    margin-bottom: 2%;
+  }
+  .equalHMVWrap {
+    flex-wrap: wrap;
+  }
+  .equalHMV {
+    width: 32%;
+    margin: 1%;
+  }
+  .equalHMV:nth-of-type(3n) {
+    margin-right: 0;
+  }
+  .equalHMV:nth-of-type(3n+1) {
+    margin-left: 0;
+  }
+}
+
+.pagnation {
+  text-align: center; padding: 1em 0; display: inline-block; width: 100%;
+  ul {
+    li { display: inline-block; padding-bottom: 2em;
+    a	 {    color: #949494;
+            background-color: #e7e7e7;
+            padding: 5px 10px;
+            border-radius: 5px;
+      &.active, &:hover { background-color: #f26522; color: $color-white;}
+
+    }
+  }
+  }
+}
+
+/* Opacity */
+@mixin Opacity($value){
+  $IEValue: $value*100;
+  opacity: $value;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity="+$IEValue+")";
+  filter: alpha(opacity=$IEValue);
+}
+
+/*pagnation */
+
+.pagnation {
+  text-align: center; padding: 1em 0; display: inline-block; width: 100%;
+  ul {
+    li { display: inline-block; padding-bottom: 2em;
+    a	 {    color: #949494;
+            background-color: #e7e7e7;
+            padding: 5px 10px;
+            border-radius: 5px;
+      &.active, &:hover { background-color: #f26522; color: $color-white;}
+      &.prev {background-color: transparent !important;color:#DDD;display: inline-block;
+        i {
+          font-size: 2.5em;
+          display: inline-block;
+          line-height: 0;
+          margin-top: 0;
+          float: right;
+        }
+        &:hover {color:$color-black;background-color: transparent !important;}
+        }
+      &.next { background-color: transparent !important; color:#DDD;display: inline-block;
+        i {
+          font-size: 2.5em;
+          display: inline-block;
+          line-height: 0;
+          margin-top: 0;
+          float: left;
+          margin-right: .5em;
+        }
+        &:hover {color:$color-black;background-color: transparent !important;}
+      }
+    }
+  }
+  }
+}

@@ -1,0 +1,23 @@
+footer { background: #000a1f; padding: 2em 0;
+.footerlogo { text-indent: -999px;background: url(../img/myicon/flogo.png) no-repeat;width:124px;height:72px;display:inline-block;background-size:100%;}
+.footAbout, .footlinks {
+  h2 { padding: 0; margin: 0; border-bottom: 2px #ff9c00 solid; font-size:1.250em;font-weight: 700;text-transform: uppercase;padding-bottom: .5em;margin-bottom: .5em;color:#FFF;}
+  p {color:#FFF;font-size: .9em; font-weight: 500;text-align: justify;    margin-bottom: 0;
+    padding-bottom: 0;}
+  li {
+    a {color:#FFF;font-size: .9em; font-weight: 500;
+    &:hover {color: $color-orange}
+  }
+    }
+
+  }
+
+
+
+
+
+}
+
+.footbottm { font-size: .8em;font-weight: 300;color:#989898;padding: 1em 0;text-transform: uppercase;
+  a {color:#989898}
+}
